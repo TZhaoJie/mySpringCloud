@@ -2,14 +2,14 @@ server:
   port: 7001
 spring:
   application:
-    name: config-server
+    name: service-config1
   cloud:
     config:
       label: master
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          searchPaths: respo
-          username: ''
+          uri: https://github.com/TZhaoJie/mySpringCloud/
+          searchPaths: properties
+          username: ""
           password: ""
 

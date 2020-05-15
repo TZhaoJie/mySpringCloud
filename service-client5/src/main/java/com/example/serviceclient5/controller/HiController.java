@@ -10,10 +10,10 @@ public class HiController {
 
     @Value("${server.port}")
     String port;
-    @Value("${foo}")
-    String foo;
+    @Value("${tzj}")
+    String tzj;
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am from port:" + port+",maven="+foo;
+        return "hi " + name + " ,i am from port:" + port+",maven="+tzj;
     }
 }
