@@ -15,12 +15,14 @@
         <module name="service-client2" />
         <module name="service-config1" />
         <module name="mySpringCloud" />
+        <module name="config-client" />
         <module name="service-zuul" />
         <module name="service-client1" />
         <module name="config-server1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
       <module name="config-server1" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -40,6 +42,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
       <module name="config-server1" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
