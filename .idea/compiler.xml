@@ -6,19 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-feign2" />
-        <module name="eureka-server" />
-        <module name="service-feign1" />
-        <module name="service-client5" />
-        <module name="service-client4" />
-        <module name="service-client3" />
-        <module name="service-client2" />
-        <module name="service-config1" />
-        <module name="mySpringCloud" />
-        <module name="config-client" />
-        <module name="service-zuul" />
-        <module name="service-client1" />
         <module name="config-server1" />
+        <module name="eureka-server" />
+        <module name="mySpringCloud" />
+        <module name="service-client1" />
+        <module name="service-client2" />
+        <module name="service-client3" />
+        <module name="service-client4" />
+        <module name="service-client5" />
+        <module name="service-config1" />
+        <module name="service-feign1" />
+        <module name="service-feign2" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -54,7 +53,7 @@
       <module name="service-client5" options="-parameters" />
       <module name="service-config" options="-parameters" />
       <module name="service-config1" options="-parameters" />
-      <module name="service-feign" options="-parameters -verbose -bootclasspath $PROJECT_DIR$/../../../jdk/jre\lib\rt.jar;$PROJECT_DIR$/../../../jdk/jre\lib\jce.jar" />
+      <module name="service-feign" options="-parameters -verbose -bootclasspath D:/../jdk/jre\lib\rt.jar;D:/../jdk/jre\lib\jce.jar" />
       <module name="service-feign1" options="-parameters" />
       <module name="service-feign2" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
