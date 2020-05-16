@@ -2,14 +2,14 @@ server:
   port: 7001
 spring:
   application:
-    name: service-config1
+    name: cloud-config-server
   cloud:
     config:
-      label: master
       server:
         git:
-          uri: https://github.com/TZhaoJie/mySpringCloud/
-          searchPaths: properties
-          username: ""
-          password: ""
+          uri: https://github.com/TZhaoJie/mySpringCloud.git #因为github有时候不稳定，我这里改到了码云仓
+          searchPaths: /properties/           #配置文件目录
+          username:
+          password:
+          force-pull: true
 
