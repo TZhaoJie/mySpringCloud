@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-client4/service-client4.iml" filepath="$PROJECT_DIR$/service-client4/service-client4.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-client5/service-client5.iml" filepath="$PROJECT_DIR$/service-client5/service-client5.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config1/service-config1.iml" filepath="$PROJECT_DIR$/service-config1/service-config1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config2/service-config2.iml" filepath="$PROJECT_DIR$/service-config2/service-config2.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign1/service-feign1.iml" filepath="$PROJECT_DIR$/service-feign1/service-feign1.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign2/service-feign2.iml" filepath="$PROJECT_DIR$/service-feign2/service-feign2.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />

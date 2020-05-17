@@ -15,6 +15,7 @@
         <module name="service-client4" />
         <module name="service-client5" />
         <module name="service-config1" />
+        <module name="service-config2" />
         <module name="service-feign1" />
         <module name="service-feign2" />
         <module name="service-zuul" />
@@ -33,6 +34,7 @@
       <module name="service-client5" target="1.8" />
       <module name="service-config" target="1.8" />
       <module name="service-config1" target="1.8" />
+      <module name="service-config2" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-feign1" target="1.8" />
       <module name="service-feign2" target="1.8" />
@@ -53,6 +55,7 @@
       <module name="service-client5" options="-parameters" />
       <module name="service-config" options="-parameters" />
       <module name="service-config1" options="-parameters" />
+      <module name="service-config2" options="-parameters" />
       <module name="service-feign" options="-parameters -verbose -bootclasspath D:/../jdk/jre\lib\rt.jar;D:/../jdk/jre\lib\jce.jar" />
       <module name="service-feign1" options="-parameters" />
       <module name="service-feign2" options="-parameters" />
