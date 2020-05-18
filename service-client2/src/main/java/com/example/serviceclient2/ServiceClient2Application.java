@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@RefreshScope
 public class ServiceClient2Application {
 
     public static void main(String[] args) {
