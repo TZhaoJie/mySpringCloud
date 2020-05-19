@@ -8,11 +8,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-config2/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server2/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </set>
     </option>
   </component>

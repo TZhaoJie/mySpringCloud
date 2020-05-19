@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server1" />
-        <module name="eureka-server" />
         <module name="mySpringCloud" />
+        <module name="eureka-server2" />
+        <module name="service-feign2" />
+        <module name="service-feign1" />
+        <module name="eureka-server1" />
+        <module name="service-zuul" />
+        <module name="config-server1" />
         <module name="service-client1" />
-        <module name="service-client2" />
-        <module name="service-client3" />
-        <module name="service-client4" />
         <module name="service-client5" />
         <module name="service-config1" />
+        <module name="service-client2" />
+        <module name="service-client4" />
+        <module name="service-client3" />
         <module name="service-config2" />
-        <module name="service-feign1" />
-        <module name="service-feign2" />
-        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,8 @@
       <module name="config-server1" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server1" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
       <module name="mySpringCloud" target="1.8" />
       <module name="service-client1" target="1.8" />
       <module name="service-client2" target="1.8" />
@@ -47,6 +50,8 @@
       <module name="config-server1" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server1" options="-parameters" />
+      <module name="eureka-server2" options="-parameters" />
       <module name="mySpringCloud" options="-parameters" />
       <module name="service-client1" options="-parameters" />
       <module name="service-client2" options="-parameters" />
