@@ -5,15 +5,34 @@ spring:
     user:
       name: "admin"
       password: "admin"
+  mail:
+    #端口
+    host: smtp.qq.com
+    username: 1174578722@qq.com
+    #授权码 不知道怎么搞可以百度
+    password: lhmenlxvqvyjbage
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
   boot:
     admin:
       notify:
         mail:
+          #从那里发
+          from: 1174578722@qq.com
+          #发到哪里
           to: 1174578722@qq.com
-    mail:
-      host: smtp.163.com
-      password:
-      username: miles02
+          #配置是否启用邮件通知 false是不起用
+          enabled: true
+
+#    mail:
+#      host: smtp.163.com
+#      password:
+#      username: miles02
 
 server:
   port: 6001
