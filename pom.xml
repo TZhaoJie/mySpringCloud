@@ -18,7 +18,8 @@
     </parent>
 
     <modules>
-        <module>eureka-server</module>
+        <module>eureka-server1</module>
+        <module>eureka-server2</module>
         <module>service-client2</module>
         <module>service-client3</module>
         <module>service-client4</module>
@@ -27,7 +28,8 @@
         <module>service-feign2</module>
         <module>service-zuul</module>
         <module>service-config1</module>
-        <module>config-client</module>
+        <module>service-config2</module>
+        <module>admin-server</module>
     </modules>
 
     <properties>

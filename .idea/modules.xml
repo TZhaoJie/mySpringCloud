@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server2/eureka-server2.iml" filepath="$PROJECT_DIR$/eureka-server2/eureka-server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mySpringCloud.iml" filepath="$PROJECT_DIR$/.idea/mySpringCloud.iml" />
@@ -10,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/service-client4/service-client4.iml" filepath="$PROJECT_DIR$/service-client4/service-client4.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-client5/service-client5.iml" filepath="$PROJECT_DIR$/service-client5/service-client5.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config1/service-config1.iml" filepath="$PROJECT_DIR$/service-config1/service-config1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service-config2/service-config2.iml" filepath="$PROJECT_DIR$/service-config2/service-config2.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config2/service-config2.iml" filepath="$PROJECT_DIR$/service-config2/service-config2.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign1/service-feign1.iml" filepath="$PROJECT_DIR$/service-feign1/service-feign1.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign2/service-feign2.iml" filepath="$PROJECT_DIR$/service-feign2/service-feign2.iml" />

@@ -10,19 +10,21 @@
         <module name="eureka-server2" />
         <module name="service-feign2" />
         <module name="service-feign1" />
-        <module name="eureka-server1" />
+        <module name="admin-server" />
         <module name="service-zuul" />
         <module name="config-server1" />
         <module name="service-client1" />
         <module name="service-client5" />
+        <module name="service-config2" />
         <module name="service-config1" />
         <module name="service-client2" />
-        <module name="service-client4" />
+        <module name="eureka-server1" />
         <module name="service-client3" />
-        <module name="service-config2" />
+        <module name="service-client4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server1" target="1.8" />
       <module name="eureka-client" target="1.8" />
@@ -46,6 +48,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-server" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server1" options="-parameters" />
       <module name="eureka-client" options="-parameters" />

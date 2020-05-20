@@ -7,13 +7,22 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TZhaoJie/mySpringCloud.git #因为github有时候不稳定，我这里改到了码云仓
+          uri: http://git.home.com/tanzhaojie/test1.git
           searchPaths: /properties/           #配置文件目录
-          username:
-          password:
+          username: tanzhaojie
+          password: tzj258258
           force-pull: true
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:10001/eureka/,http://localhost:10002/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
 
