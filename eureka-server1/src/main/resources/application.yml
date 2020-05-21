@@ -21,3 +21,6 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+
+logging:
+  file: C:/Log/${spring.application.name}.log

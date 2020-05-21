@@ -1,16 +1,41 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: http://localhost:10001/eureka/,http://localhost:10002/eureka/
+  instance:
+    health-check-url-path: /actuator/health
+    leaseRenewalIntervalInSeconds: 10
+    metadata-map:
+      user:
+        name: ${spring.security.user.name}
+        password: ${spring.security.user.password}
+logging:
+  file: C:/Log/${spring.application.name}.log
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 6001
 spring:
   application:
     name: admin-server
-  security:
-    user:
-      name: "admin"
-      password: "admin"
+  boot:
+    admin:
+      notify:
+        mail:
+          enabled: true
+          from: 17674757619@163.com
+          to: 1174578722@qq.com
   mail:
-    #端口
-    host: smtp.qq.com
-    username: 1174578722@qq.com
-    #授权码 不知道怎么搞可以百度
-    password: lhmenlxvqvyjbage
+    host: smtp.163.com
+    #password: lhmenlxvqvyjbage
+    password: ACGODNVXJUXBTDII
     properties:
       mail:
         smtp:
@@ -18,44 +43,10 @@ spring:
           starttls:
             enable: true
             required: true
-  boot:
-    admin:
-      notify:
-        mail:
-          #从那里发
-          from: 1174578722@qq.com
-          #发到哪里
-          to: 1174578722@qq.com
-          #配置是否启用邮件通知 false是不起用
-          enabled: true
+    username: 17674757619@163.com
+#    port: 587
 
-#    mail:
-#      host: smtp.163.com
-#      password:
-#      username: miles02
-
-server:
-  port: 6001
-eureka:
-  client:
-    registryFetchIntervalSeconds: 5
-    service-url:
-      defaultZone: http://localhost:10001/eureka/,http://localhost:10002/eureka/
-  instance:
-    leaseRenewalIntervalInSeconds: 10
-    health-check-url-path: /actuator/health
-    metadata-map:
-      user.name: ${spring.security.user.name}
-      user.password: ${spring.security.user.password}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: ALWAYS
-
-
-
+  security:
+    user:
+      name: admin
+      password: admin
